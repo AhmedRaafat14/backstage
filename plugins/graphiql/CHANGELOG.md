@@ -1,5 +1,17 @@
 # @backstage/plugin-graphiql
 
+## 0.3.7-next.2
+
+### Patch Changes
+
+- d137034: Added the `no-top-level-material-ui-4-imports` ESLint rule to aid with the migration to Material UI v5
+- abfbcfc: Updated dependency `@testing-library/react` to `^15.0.0`.
+- Updated dependencies
+  - @backstage/core-compat-api@0.2.4-next.2
+  - @backstage/core-components@0.14.4-next.1
+  - @backstage/core-plugin-api@1.9.2-next.0
+  - @backstage/frontend-plugin-api@0.6.4-next.2
+
 ## 0.3.7-next.1
 
 ### Patch Changes

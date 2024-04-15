@@ -1,5 +1,34 @@
 # @backstage/repo-tools
 
+## 0.8.0-next.2
+
+### Minor Changes
+
+- 2bd291e: Adds a lint rule to `repo schema openapi lint` to enforce `allowReserved` for all parameters. To fix this, simply add `allowReserved: true` to your parameters, like so
+
+  ```diff
+  /v1/todos:
+      get:
+        operationId: ListTodos
+        # ...
+        parameters:
+          - name: entity
+            in: query
+  +         allowReserved: true
+            schema:
+              type: string
+  ```
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/config-loader@1.8.0-next.1
+  - @backstage/backend-common@0.21.7-next.2
+  - @backstage/catalog-model@1.4.5
+  - @backstage/cli-common@0.1.13
+  - @backstage/cli-node@0.2.4
+  - @backstage/errors@1.2.4
+
 ## 0.8.0-next.1
 
 ### Patch Changes

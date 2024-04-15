@@ -1,5 +1,32 @@
 # @backstage/plugin-notifications-backend
 
+## 0.2.0-next.2
+
+### Minor Changes
+
+- 939b4ec: Notifications-backend URL query parameter changed from `minimal_severity` to `minimumSeverity`.
+
+### Patch Changes
+
+- 0d99528: Notification processor functions are now renamed to `preProcess` and `postProcess`.
+  Additionally, processor name is now required to be returned by `getName`.
+  A new processor functionality `processOptions` was added to process options before sending the notification.
+- e003e0e: The ordered list of notifications' severities is exported by notifications-common for reusability.
+- 9a41a7b: Migrate signals and notifications to the new backend in local development
+- 6206039: Fix entity owner resolution in notifications
+- Updated dependencies
+  - @backstage/plugin-notifications-common@0.0.3-next.0
+  - @backstage/plugin-notifications-node@0.1.3-next.2
+  - @backstage/backend-common@0.21.7-next.2
+  - @backstage/backend-plugin-api@0.6.17-next.2
+  - @backstage/config@1.2.0
+  - @backstage/plugin-auth-node@0.4.12-next.2
+  - @backstage/plugin-events-node@0.3.3-next.2
+  - @backstage/plugin-signals-node@0.1.3-next.2
+  - @backstage/catalog-client@1.6.4-next.0
+  - @backstage/catalog-model@1.4.5
+  - @backstage/errors@1.2.4
+
 ## 0.2.0-next.1
 
 ### Minor Changes

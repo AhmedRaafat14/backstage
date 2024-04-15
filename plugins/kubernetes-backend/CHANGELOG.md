@@ -1,5 +1,31 @@
 # @backstage/plugin-kubernetes-backend
 
+## 0.17.0-next.2
+
+### Minor Changes
+
+- 5dd8177: **BREAKING** Winston logger has been replaced with `LoggerService`
+
+### Patch Changes
+
+- dd269e9: Fixed a bug where the proxy handler did not properly handle a missing header
+- e5a2ccc: Updated dependency `@types/http-proxy-middleware` to `^1.0.0`.
+- Updated dependencies
+  - @backstage/plugin-permission-node@0.7.28-next.2
+  - @backstage/backend-common@0.21.7-next.2
+  - @backstage/integration-aws-node@0.1.12
+  - @backstage/plugin-kubernetes-node@0.1.11-next.2
+  - @backstage/plugin-catalog-node@1.11.1-next.2
+  - @backstage/backend-plugin-api@0.6.17-next.2
+  - @backstage/config@1.2.0
+  - @backstage/plugin-auth-node@0.4.12-next.2
+  - @backstage/catalog-client@1.6.4-next.0
+  - @backstage/catalog-model@1.4.5
+  - @backstage/errors@1.2.4
+  - @backstage/types@1.1.1
+  - @backstage/plugin-kubernetes-common@0.7.5
+  - @backstage/plugin-permission-common@0.7.13
+
 ## 0.17.0-next.1
 
 ### Minor Changes

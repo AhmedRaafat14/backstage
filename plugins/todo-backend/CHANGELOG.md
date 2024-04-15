@@ -1,5 +1,22 @@
 # @backstage/plugin-todo-backend
 
+## 0.3.16-next.2
+
+### Patch Changes
+
+- 2bd291e: Allow reserved characters in requests.
+- d5a1fe1: Replaced winston logger with `LoggerService`
+- Updated dependencies
+  - @backstage/backend-common@0.21.7-next.2
+  - @backstage/integration@1.10.0-next.0
+  - @backstage/plugin-catalog-node@1.11.1-next.2
+  - @backstage/backend-plugin-api@0.6.17-next.2
+  - @backstage/config@1.2.0
+  - @backstage/backend-openapi-utils@0.1.10-next.2
+  - @backstage/catalog-client@1.6.4-next.0
+  - @backstage/catalog-model@1.4.5
+  - @backstage/errors@1.2.4
+
 ## 0.3.16-next.1
 
 ### Patch Changes

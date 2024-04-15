@@ -1,5 +1,17 @@
 # @backstage/plugin-cloudbuild
 
+## 0.5.1-next.2
+
+### Patch Changes
+
+- 4be6335: Changed the column that serves as a hyperlink from SOURCE to BUILD.
+- abfbcfc: Updated dependency `@testing-library/react` to `^15.0.0`.
+- Updated dependencies
+  - @backstage/plugin-catalog-react@1.11.3-next.2
+  - @backstage/core-components@0.14.4-next.1
+  - @backstage/core-plugin-api@1.9.2-next.0
+  - @backstage/catalog-model@1.4.5
+
 ## 0.5.1-next.1
 
 ### Patch Changes

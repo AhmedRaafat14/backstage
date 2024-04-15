@@ -1,5 +1,20 @@
 # @backstage/plugin-search-backend-module-pg
 
+## 0.5.26-next.2
+
+### Patch Changes
+
+- cf163a5: Enable module only on supported databases
+
+  Also pass logger to the service
+
+- Updated dependencies
+  - @backstage/plugin-search-backend-node@1.2.21-next.2
+  - @backstage/backend-common@0.21.7-next.2
+  - @backstage/backend-plugin-api@0.6.17-next.2
+  - @backstage/config@1.2.0
+  - @backstage/plugin-search-common@1.2.11
+
 ## 0.5.26-next.1
 
 ### Patch Changes

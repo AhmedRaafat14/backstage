@@ -1,5 +1,41 @@
 # @backstage/plugin-catalog-backend-module-github
 
+## 0.6.0-next.2
+
+### Minor Changes
+
+- 29c3898: Remove use of `EventBroker` and `EventSubscriber` for the GitHub org data providers.
+
+  BREAKING CHANGE:
+
+  - `GithubOrgEntityProvider.onEvent` made private
+  - `GithubOrgEntityProvider.supportsEventTopics` removed
+  - `eventBroker` option was removed from `GithubMultiOrgEntityProvider.fromConfig`
+  - `GithubMultiOrgEntityProvider.supportsEventTopics` removed
+
+  This change only impacts users who still use the legacy backend system
+  **and** who still use `eventBroker` as option when creating these
+  entity providers.
+
+  Please pass the `EventsService` instance as option `events` instead.
+  You can find more information at the [installation documentation](https://backstage.io/docs/integrations/github/org/#legacy-backend-system).
+
+### Patch Changes
+
+- d5a1fe1: Replaced winston logger with `LoggerService`
+- Updated dependencies
+  - @backstage/plugin-catalog-backend@1.21.1-next.2
+  - @backstage/backend-tasks@0.5.22-next.2
+  - @backstage/backend-common@0.21.7-next.2
+  - @backstage/integration@1.10.0-next.0
+  - @backstage/plugin-catalog-node@1.11.1-next.2
+  - @backstage/backend-plugin-api@0.6.17-next.2
+  - @backstage/config@1.2.0
+  - @backstage/plugin-events-node@0.3.3-next.2
+  - @backstage/catalog-client@1.6.4-next.0
+  - @backstage/catalog-model@1.4.5
+  - @backstage/plugin-catalog-common@1.0.22
+
 ## 0.5.8-next.1
 
 ### Patch Changes

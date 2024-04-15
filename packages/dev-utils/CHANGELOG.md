@@ -1,5 +1,21 @@
 # @backstage/dev-utils
 
+## 1.0.31-next.2
+
+### Patch Changes
+
+- 9a41a7b: Allow defining custom sidebar item for page and login for the development app
+- abfbcfc: Updated dependency `@testing-library/react` to `^15.0.0`.
+- Updated dependencies
+  - @backstage/plugin-catalog-react@1.11.3-next.2
+  - @backstage/core-components@0.14.4-next.1
+  - @backstage/app-defaults@1.5.4-next.2
+  - @backstage/core-app-api@1.12.4-next.1
+  - @backstage/core-plugin-api@1.9.2-next.0
+  - @backstage/theme@0.5.3-next.0
+  - @backstage/integration-react@1.1.26-next.1
+  - @backstage/catalog-model@1.4.5
+
 ## 1.0.31-next.1
 
 ### Patch Changes

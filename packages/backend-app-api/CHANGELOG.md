@@ -1,5 +1,26 @@
 # @backstage/backend-app-api
 
+## 0.7.0-next.2
+
+### Patch Changes
+
+- 2c50516: Fix auth cookie issuance for split backend deployments by preferring to set it against the request target host instead of origin
+- d5a1fe1: Replaced winston logger with `LoggerService`
+- 56f81b5: Improved error message thrown by `AuthService` when requesting a token for plugins that don't support the new authentication tokens.
+- 25ea3d2: Minor internal restructuring
+- Updated dependencies
+  - @backstage/config-loader@1.8.0-next.1
+  - @backstage/plugin-permission-node@0.7.28-next.2
+  - @backstage/backend-tasks@0.5.22-next.2
+  - @backstage/backend-common@0.21.7-next.2
+  - @backstage/backend-plugin-api@0.6.17-next.2
+  - @backstage/config@1.2.0
+  - @backstage/plugin-auth-node@0.4.12-next.2
+  - @backstage/cli-common@0.1.13
+  - @backstage/cli-node@0.2.4
+  - @backstage/errors@1.2.4
+  - @backstage/types@1.1.1
+
 ## 0.7.0-next.1
 
 ### Minor Changes

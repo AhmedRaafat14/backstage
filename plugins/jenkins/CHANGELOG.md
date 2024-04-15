@@ -1,5 +1,19 @@
 # @backstage/plugin-jenkins
 
+## 0.9.9-next.2
+
+### Patch Changes
+
+- abfbcfc: Updated dependency `@testing-library/react` to `^15.0.0`.
+- 20f01d6: Updated dependency `@types/testing-library__jest-dom` to `^6.0.0`.
+- Updated dependencies
+  - @backstage/plugin-catalog-react@1.11.3-next.2
+  - @backstage/core-components@0.14.4-next.1
+  - @backstage/core-plugin-api@1.9.2-next.0
+  - @backstage/catalog-model@1.4.5
+  - @backstage/errors@1.2.4
+  - @backstage/plugin-jenkins-common@0.1.25
+
 ## 0.9.9-next.1
 
 ### Patch Changes

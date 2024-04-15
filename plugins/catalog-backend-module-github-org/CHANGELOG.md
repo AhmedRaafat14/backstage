@@ -1,5 +1,19 @@
 # @backstage/plugin-catalog-backend-module-github-org
 
+## 0.1.12-next.2
+
+### Patch Changes
+
+- d5a1fe1: Replaced winston logger with `LoggerService`
+- Updated dependencies
+  - @backstage/plugin-catalog-backend-module-github@0.6.0-next.2
+  - @backstage/backend-tasks@0.5.22-next.2
+  - @backstage/backend-common@0.21.7-next.2
+  - @backstage/plugin-catalog-node@1.11.1-next.2
+  - @backstage/backend-plugin-api@0.6.17-next.2
+  - @backstage/config@1.2.0
+  - @backstage/plugin-events-node@0.3.3-next.2
+
 ## 0.1.12-next.1
 
 ### Patch Changes
